@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	</head>
+	<body>
+		<h1>Halo, apa kabar?</h1>
+		<br>
+		<h1>write status : </h1>
+		<form action="{% url 'landingPage:landingPage' %}"method="POST">
+			{% csrf_token %}
+			{{ form.status }}
+			<div style="display:none"> {{ form.post_time }} </div>
+			<input type="submit" value="Post" id="submit">
+		</form>
+		
+		<h1>status written : </h1>
+		<table style="border:1px solid black">
+			{% for s in schedule %}
+				<tr>
+					<td style="border:1px solid black">
+						{{ s.status }}
+					</td>
+					<td style="border:1px solid black">
+						{{ s.post_time }}
+					</td>
+				</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>
