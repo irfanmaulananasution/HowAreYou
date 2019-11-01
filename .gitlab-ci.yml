@@ -1,8 +1,5 @@
 stages:
-  - test
   - deploy
-
-
 
 Deployment:
   image: ruby:2.4
