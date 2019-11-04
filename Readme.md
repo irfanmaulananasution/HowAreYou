@@ -1,5 +1,5 @@
-[![pipeline status](https://gitlab.com/irfanmaulananasution/story6/badges/master/pipeline.svg)](https://gitlab.com/irfanmaulananasution/story6/commits/master)
-[![coverage report](https://gitlab.com/irfanmaulananasution/story6/badges/master/coverage.svg)](https://gitlab.com/irfanmaulananasution/story6/commits/master)
+[![pipeline status](https://gitlab.com/irfanmaulananasution/story6-2/badges/master/pipeline.svg)](https://gitlab.com/irfanmaulananasution/story6-2/commits/master)
+[![coverage report](https://gitlab.com/irfanmaulananasution/story6-2/badges/master/coverage.svg)](https://gitlab.com/irfanmaulananasution/story6-2/commits/master)
 
 #story6
 
