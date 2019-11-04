@@ -3,3 +3,4 @@ from .forms import StatusForms
 from .models import StatusModels
 
 def landingPage(request):
+	return
