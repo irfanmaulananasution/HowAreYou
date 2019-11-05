@@ -3,5 +3,4 @@ __pycache__/
 env/
 chromedriver
 chromedriver.exe
-/landingPage/static/*
 db.sqlite3
